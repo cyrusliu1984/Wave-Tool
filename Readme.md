@@ -15,6 +15,7 @@ Wave Tool 是一款基于 Python + PyQt5 + 深度学习的波形数据处理工�
 ### 1. 安装 Conda（若未安装）
 - 下载地址：[Anaconda 官网](https://www.anaconda.com/products/distribution#download-section)（选择 Linux 版本）
 - 安装命令：`bash Anaconda3-xxxx-Linux-x86_64.sh`（按提示完成安装，重启终端生效）
+- 模型及示例数据下载地址： [模型及数据](https://huggingface.co/cyrusliu1984/Wave_Tool/tree/main) 
 
 
 ### 2. 创建并激活 Conda 环境
@@ -29,7 +30,7 @@ conda activate wave_env
 
 
 ### 3. 安装依赖库
-#### 3.1 Ubuntu 系统依赖（必装，解决 GUI 与打包问题）
+#### 3.1 Ubuntu 系统依赖
 ```bash
 # 安装 PyQt5 与 XML 解析依赖（解决 pyexpat 错误）
 sudo apt update
